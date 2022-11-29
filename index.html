@@ -6,17 +6,12 @@
     <meta name="description" content="A brief portfolio">
     <title>Colin Witt Portfolio</title>
 
-   <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/"> -->
+      <!-- CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css.map" rel="stylesheet">
+    <link href="headers.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
 
-    
-
-    
-
-<link href="bootstrap.min.css" rel="stylesheet">
-<link href="bootstrap.min.css.map" rel="stylesheet">
-<link href="headers.css" rel="stylesheet">
-<link href="carousel.css" rel="stylesheet">
-      
 
     <style>
         
@@ -73,9 +68,8 @@
         
     </style>
 
-    
-    <!-- Custom styles for this template -->
-   
+        <!-- CSS Closed -->
+       
   </head>
     
   <body>
@@ -83,56 +77,52 @@
 
 <main>
     <!-- Nav -->
-  <div class="container">
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-        <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
-      </ul>
-    </header>
-  </div>
+      <div class="container">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
+          </ul>
+        </header>
+      </div>
 
-    <!--Hero -->
+    <!--Heroes -->
     
-    <h1 class="visually-hidden">Heroes examples</h1>
+    <!-- 1 -->
+        <div id="home">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4" src="thumb.png" alt="" width="72" height="57">
+                <h1 class="display-5 text-dark">Hello World!</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Thank you for visiting my page! This will serve as a brief portfolio detailing my skills and a bit about myself. I hope you find this page helpful and feel free to reach out with any questions or comments!  </p>
 
-<!-- 1 -->
-    <div id="home">
-    <div class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4" src="thumb.png" alt="" width="72" height="57">
-    <h1 class="display-5 text-dark">Hello World!</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Thank you for visiting my page! This will serve as a brief portfolio detailing my skills and a bit about myself. I hope you find this page helpful and feel free to reach out with any questions or comments!  </p>
-     
-    </div>
-  </div>
-</div>
+                </div>
+            </div>
+        </div>
     
   <div class="b-example-divider"></div>
     
-        <!-- About -->
-    <div id="about">
-  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="suit.JPG" class="d-block mx-lg-auto img-fluid" alt="Family" width="700" height="500" loading="lazy"> 
-      </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
-        <p class="fw-normal">I am currently 25 years old and live in Allentown, Pennsylvania. When I’m not in front of my computer, I enjoy hiking with my dog Sydney, camping, and kayaking. I am also an avid fan of the UFC and the Pittsburgh Steelers. 
-            
-          <p class="text-break" fw-normal>I received my associates degree in web development from Northampton Community College. I have worked for an integrated marketing agency called Stream Companies as a web strategist as well as a digital strategist and project manager for Essential Land management. 
-          </p>
-      
-      </div>
-    </div>
-      
-      
-  </div>
-    </div>
+            <!-- About -->
+        <div id="about">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="suit.JPG" class="d-block mx-lg-auto img-fluid" alt="Family" width="700" height="500" loading="lazy"> 
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">About Me</h1>
+                        <p class="fw-normal">I am currently 25 years old and live in Allentown, Pennsylvania. When I’m not in front of my computer, I enjoy hiking with my dog Sydney, camping, and kayaking. I am also an avid fan of the UFC and the Pittsburgh Steelers. 
+
+                        <p class="text-break" fw-normal>I received my associates degree in web development from Northampton Community College. I have worked for an integrated marketing agency called Stream Companies as a web strategist as well as a digital strategist and project manager for Essential Land management. 
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     
 
       <div class="b-example-divider"></div>
@@ -140,8 +130,8 @@
     
      <!-- 2 -->
     <div id="skills">
-    <div class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom">Skills</h2>
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom">Skills</h2>
 
         <!-- row 1 -->
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
@@ -208,127 +198,130 @@
  
   <div class="b-example-divider"></div>
         
-            <!-- Carousel -->
+            <!-- Carousel 
       
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="syd.png" class="d-block w-100" alt="mydog">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="syd.png" class="d-block w-100" alt="mydog">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
       
       <!-- end carousel -->
+    
   <div class="b-example-divider"></div>
 
     <!-- 4 -->
-    <div id="contact">
-  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
-      <div class="col-lg-7 text-center text-lg-start">
-        <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
-        <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
-      </div>
-      <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+        <div id="contact">
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Vertically centered hero sign-up form</h1>
+            <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
           </div>
-          <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+              <hr class="my-4">
+              <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+            </form>
           </div>
-          <div class="checkbox mb-3">
-            <label>
-              <input type="checkbox" value="remember-me"> Remember me
-            </label>
-          </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
-          <hr class="my-4">
-          <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
-        </form>
-      </div>
-    </div>
-  </div>
-    </div>
-  <div class="b-example-divider"></div>
-
-    <!-- 5 -->
-    <div id="goals">
-  <div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-        <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
-        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
         </div>
       </div>
-      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-          <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
-      </div>
-    </div>
-  </div>
-    </div>
+   </div>
   <div class="b-example-divider"></div>
 
-  <div class="bg-dark text-secondary px-4 py-5 text-center">
-    <div class="py-5">
-      <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
-          <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+        <!-- 5 -->
+        <div id="goals">
+      <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">Border hero with cropped image and shadows</h1>
+            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+        </div>
+    
+  <div class="b-example-divider"></div>
+
+      <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Custom button</button>
+              <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
   <div class="b-example-divider mb-0"></div>
  
    
       
     <div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
 
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-    </a>
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+            </a>
 
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#skills" class="nav-link px-2 text-muted">Skills</a></li>
-      <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
-      <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
-      <li class="nav-item"><a href="#goals" class="nav-link px-2 text-muted">Goals</a></li>
-    </ul>
-  
-      </footer>
-</div>
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#home" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link px-2 text-muted">Skills</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
+                <li class="nav-item"><a href="#goals" class="nav-link px-2 text-muted">Goals</a></li>
+            </ul>
+
+          </footer>
+    </div>
 
     
 
     <script src="../colinw17.github.io/bootstrap.bundle.min.js"></script>
     
-</main>
+      </main>
     
     </body>
+    
 </html>
