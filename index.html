@@ -11,6 +11,7 @@
     <link href="bootstrap.min.css.map" rel="stylesheet">
     <link href="headers.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
 
 
     <style>
@@ -77,9 +78,11 @@
 
 <main>
     <!-- Nav -->
+    
+    <!--
       <div class="container">
         <header class="d-flex justify-content-center py-3">
-          <ul class="nav nav-pills">
+          <ul class="nav navbar-pills">
             <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
@@ -87,19 +90,50 @@
             <li class="nav-item"><a href="#goals" class="nav-link">Goals</a></li>
           </ul>
         </header>
+      </div> -->
+  <nav class="navbar navbar-expand-xxl navbar-dark bg-dark" aria-label="Seventh navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Click the hamburger for navigation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExampleXxl" aria-controls="navbarsExampleXxl" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleXxl">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+              <li><a class="dropdown-item" href="#goals">Goals</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
 
     <!--Heroes -->
     
     <!-- 1 -->
         <div id="home">
+              <div class="bg-dark py-3">
             <div class="px-4 py-5 my-5 text-center">
-                <img class="d-block mx-auto mb-4" src="thumb.png" alt="" width="72" height="57">
-                <h1 class="display-5 text-dark">Hello World!</h1>
-                <div class="col-lg-6 mx-auto">
+                <img class="d-block mx-auto mb-4" src="web.png" alt="" width="120" height="100">
+                <h1 class="display-3 text-light mb-4">Hello World!</h1>
+                <div class="col-lg-5 text-light mx-auto">
                     <p class="lead mb-4">Thank you for visiting my page! This will serve as a brief portfolio detailing my skills and a bit about myself. I hope you find this page helpful and feel free to reach out with any questions or comments!  </p>
 
                 </div>
+            </div>
             </div>
         </div>
     
@@ -317,7 +351,7 @@
 
     
 
-    <script src="../colinw17.github.io/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
     
       </main>
     
